@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="UpgradeDef" format=3 uid="uid://i3yxgm80r6l2"]
+
+[ext_resource type="Script" uid="uid://nv1gv166tls8" path="res://scripts/domain/defs/stat_modifier.gd" id="1_8g8jt"]
+[ext_resource type="Script" uid="uid://csycvrydplb8e" path="res://scripts/domain/defs/upgrade_def.gd" id="2_fc2f1"]
+
+[resource]
+script = ExtResource("2_fc2f1")
+metadata/_custom_type_script = "uid://csycvrydplb8e"

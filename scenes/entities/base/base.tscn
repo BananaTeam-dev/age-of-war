@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://xy8uf4dnrjql"]
+
+[ext_resource type="Script" uid="uid://clxysemynlios" path="res://scripts/entities/base.gd" id="1_8e0kq"]
+[ext_resource type="Script" uid="uid://cyw1yx4apd1du" path="res://scripts/components/health.gd" id="1_a6hgr"]
+
+[node name="Base" type="Node2D" unique_id=294052688]
+script = ExtResource("1_8e0kq")
+
+[node name="Health" type="Node" parent="." unique_id=2079528845]
+script = ExtResource("1_a6hgr")

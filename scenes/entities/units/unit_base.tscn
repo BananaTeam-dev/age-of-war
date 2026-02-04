@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cymoh26ef3wf1"]
+
+[ext_resource type="Script" uid="uid://cyw1yx4apd1du" path="res://scripts/components/health.gd" id="1_rney1"]
+
+[node name="Unit" type="Node2D" unique_id=221875582]
+
+[node name="Visual" type="Node2D" parent="." unique_id=763017077]
+
+[node name="Sprite2D" type="Sprite2D" parent="Visual" unique_id=1830281078]
+
+[node name="TargetDetector" type="Area2D" parent="." unique_id=914015603]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TargetDetector" unique_id=1079154460]
+
+[node name="Health" type="Node" parent="." unique_id=959510724]
+script = ExtResource("1_rney1")
+metadata/_custom_type_script = "uid://cyw1yx4apd1du"

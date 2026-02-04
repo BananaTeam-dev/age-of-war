@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="UnitDef" format=3 uid="uid://dj2am550bs3yg"]
+
+[ext_resource type="Script" uid="uid://blfkenboupk6t" path="res://scripts/domain/defs/unit_def.gd" id="1_x6mvf"]
+
+[resource]
+script = ExtResource("1_x6mvf")
+max_hp = 10
+metadata/_custom_type_script = "uid://blfkenboupk6t"
