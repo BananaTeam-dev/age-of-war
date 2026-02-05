@@ -7,6 +7,7 @@ extends Node
 signal match_started()
 signal match_ended(victory: bool)
 signal paused_changed(paused: bool)
+signal main_menu_requested()
 
 # Economy / Upgrades
 signal gold_changed(new_gold: int, delta: int)

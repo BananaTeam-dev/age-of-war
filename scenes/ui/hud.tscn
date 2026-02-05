@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://g6gko7xijfq2"]
+
+[ext_resource type="Script" uid="uid://2uxdnlqtypgo" path="res://scripts/ui/hud.gd" id="1_wqs7g"]
+
+[node name="HUD" type="CanvasLayer" unique_id=1957756856]
+script = ExtResource("1_wqs7g")
+
+[node name="Root" type="Control" parent="." unique_id=1605519699]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TopBar" type="HBoxContainer" parent="Root" unique_id=2037111779]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 29.0
+grow_horizontal = 2
+
+[node name="GoldLabel" type="Label" parent="Root/TopBar" unique_id=1409544143]
+layout_mode = 2
+
+[node name="BottomBar" type="HBoxContainer" parent="Root" unique_id=1478265274]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -24.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="UnitButtons" type="HBoxContainer" parent="Root/BottomBar" unique_id=128089144]
+layout_mode = 2
+
+[node name="UnitButton_Clubman" type="Button" parent="Root/BottomBar/UnitButtons" unique_id=2052283129]
+layout_mode = 2
+text = "Spawn Caveman"
+
+[node name="Overlay" type="Control" parent="Root" unique_id=1527595914]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="ToolTip" type="PanelContainer" parent="Root/Overlay" unique_id=1113767387]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Text" type="Label" parent="Root/Overlay/ToolTip" unique_id=658656516]
+layout_mode = 2

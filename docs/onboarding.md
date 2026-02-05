@@ -22,7 +22,7 @@ Open git bash terminal, go to project directory and setup your environment:
 
 ```bash
 cd your-project-dir
-git clone git@github.com:FluffyDango/age-of-war.git
+git clone https://github.com/BananaTeam-dev/age-of-war
 cd age-of-war
 git lfs install
 ```

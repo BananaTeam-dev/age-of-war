@@ -1,5 +1,4 @@
 extends Node2D
-class_name BaseEntity
 
 @export var team_id: int = 0
 

@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://b733hlujh85kh"]
+
+[ext_resource type="Script" uid="uid://cblcw3eb5amm" path="res://scripts/ui/game_over.gd" id="1_wplnd"]
+
+[node name="GameOver" type="CanvasLayer" unique_id=227988423]
+script = ExtResource("1_wplnd")
+
+[node name="Root" type="Control" parent="." unique_id=2054476393]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Dimmer" type="ColorRect" parent="Root" unique_id=1507310058]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.039215688, 0.039215688, 0.039215688, 0.4392157)
+
+[node name="CenterContainer" type="CenterContainer" parent="Root" unique_id=2145300388]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="PanelContainer" parent="Root/CenterContainer" unique_id=597676893]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Root/CenterContainer/Panel" unique_id=1869918317]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Root/CenterContainer/Panel/MarginContainer" unique_id=772652867]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Root/CenterContainer/Panel/MarginContainer/VBoxContainer" unique_id=84608040]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "PLACEHOLDER"
+vertical_alignment = 1
+
+[node name="Subtitle" type="Label" parent="Root/CenterContainer/Panel/MarginContainer/VBoxContainer" unique_id=2081988916]
+unique_name_in_owner = true
+layout_mode = 2
+text = "PLACEHOLDER"
+
+[node name="Stats" type="VBoxContainer" parent="Root/CenterContainer/Panel/MarginContainer/VBoxContainer" unique_id=9232700]
+layout_mode = 2
+
+[node name="TimeSurvived" type="Label" parent="Root/CenterContainer/Panel/MarginContainer/VBoxContainer/Stats" unique_id=2086125624]
+unique_name_in_owner = true
+layout_mode = 2
+text = "%time"
+
+[node name="Buttons" type="VBoxContainer" parent="Root/CenterContainer/Panel/MarginContainer/VBoxContainer" unique_id=1057479312]
+layout_mode = 2
+
+[node name="RetryButton" type="Button" parent="Root/CenterContainer/Panel/MarginContainer/VBoxContainer/Buttons" unique_id=550303607]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Retry"
+
+[node name="MainMenuButton" type="Button" parent="Root/CenterContainer/Panel/MarginContainer/VBoxContainer/Buttons" unique_id=636502039]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Go To Main Menu"

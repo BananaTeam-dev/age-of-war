@@ -2,9 +2,13 @@
 
 [ext_resource type="Script" uid="uid://clxysemynlios" path="res://scripts/entities/base.gd" id="1_8e0kq"]
 [ext_resource type="Script" uid="uid://cyw1yx4apd1du" path="res://scripts/components/health.gd" id="1_a6hgr"]
+[ext_resource type="Texture2D" uid="uid://74jhapnhvs33" path="res://assets/base/sprite/cave.png" id="3_rby7n"]
 
 [node name="Base" type="Node2D" unique_id=294052688]
 script = ExtResource("1_8e0kq")
 
 [node name="Health" type="Node" parent="." unique_id=2079528845]
 script = ExtResource("1_a6hgr")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1236620366]
+texture = ExtResource("3_rby7n")

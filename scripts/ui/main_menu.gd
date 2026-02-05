@@ -1,14 +1,20 @@
 extends Control
 
-@export var options_menu_scene: PackedScene
+@onready var start_btn: Button = %Start
+@onready var options_btn: Button = %Options
+@onready var quit_btn: Button = %Quit
 
-#func _on_start_pressed() -> void:
-	#Game.start_match({})
+func _ready() -> void:
+	start_btn.pressed.connect(_on_start_pressed)
+	options_btn.pressed.connect(_on_options_pressed)
+	quit_btn.pressed.connect(_on_quit_pressed)
+
+func _on_start_pressed() -> void:
+	print("Start pressed -> emitting match_started")
+	Events.match_started.emit()
 
 func _on_options_pressed() -> void:
-	var options := options_menu_scene.instantiate()
-	add_child(options)
-	(options as Control).set_anchors_preset(Control.PRESET_FULL_RECT)
+	pass
 
 func _on_quit_pressed() -> void:
 	get_tree().quit()
