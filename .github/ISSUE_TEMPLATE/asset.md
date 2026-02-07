@@ -17,6 +17,4 @@ labels: asset
 
 ## Placement / Usage
 
-## Attachments
-
-Concepts, sketches, reference images, audio refs, etc.
+## Attachments (Concepts, sketches, etc.)

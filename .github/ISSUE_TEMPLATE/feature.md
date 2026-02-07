@@ -6,4 +6,4 @@ labels: feature
 
 ## Summary
 
-## Notes / References
+## Notes

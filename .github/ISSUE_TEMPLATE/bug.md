@@ -27,4 +27,4 @@ labels: bug
 - [ ] Minor
 - [ ] Cosmetic
 
-## Media / Logs (if available)
+## Logs (if available)
