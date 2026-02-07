@@ -1,6 +1,7 @@
 # For Developers how to get started
 
 To work on the project you will need to install (Windows links):
+
 - [Godot](https://godotengine.org/download/windows)
 - [git](https://git-scm.com/install/windows)
 - [git-lfs](https://git-lfs.com/)
@@ -22,7 +23,7 @@ Open git bash terminal, go to project directory and setup your environment:
 
 ```bash
 cd your-project-dir
-git clone https://github.com/BananaTeam-dev/age-of-war
+git clone git@github.com:BananaTeam-dev/age-of-war.git
 cd age-of-war
 git lfs install
 ```
