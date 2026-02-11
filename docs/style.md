@@ -13,4 +13,7 @@ Use one hashtag `#` for (used for devs):
 Use two hashtag `##` for (used for Godot descriptions when hovering):
 - script/class description (top-of-file)
 - exported variables you want tooltips for
+
 :)
+.
+
