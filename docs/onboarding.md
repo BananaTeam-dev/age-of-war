@@ -14,6 +14,7 @@ For ssh-keygen you can use default values and not use a password. Just check whe
 ```
 git config --global user.name "myusername123"
 git config --global user.email "myemail123@gmail.com"
+git config --global push.autoSetupRemote true
 ssh-keygen -t ed25519 -C "myemail123@gmail.com"
 ```
 
@@ -27,4 +28,3 @@ git clone git@github.com:BananaTeam-dev/age-of-war.git
 cd age-of-war
 git lfs install
 ```
-:)
