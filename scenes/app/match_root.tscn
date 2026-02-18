@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://g6gko7xijfq2" path="res://scenes/ui/hud.tscn" id="2_loiep"]
 [ext_resource type="Script" uid="uid://bsb1u6f4n7wi1" path="res://scripts/systems/match_system.gd" id="3_7qfgv"]
 [ext_resource type="Script" uid="uid://ddu0a7st754px" path="res://scripts/systems/spawn_system.gd" id="4_hefee"]
+[ext_resource type="PackedScene" uid="uid://d3qg3xvjn0qbu" path="res://scenes/entities/player/player.tscn" id="6_5iexc"]
 [ext_resource type="PackedScene" uid="uid://b733hlujh85kh" path="res://scenes/ui/game_over.tscn" id="7_7qfgv"]
 [ext_resource type="PackedScene" uid="uid://tds0relcg3ng" path="res://scenes/ui/pause_menu.tscn" id="8_hefee"]
 
@@ -37,6 +38,9 @@ position = Vector2(194, 949)
 
 [node name="EnemyBase" parent="World/Bases" unique_id=37151942 instance=ExtResource("1_5w55c")]
 position = Vector2(1771, 943)
+
+[node name="Player" parent="World" unique_id=532073832 instance=ExtResource("6_5iexc")]
+position = Vector2(915, 584)
 
 [node name="UI" type="CanvasLayer" parent="." unique_id=1833450855]
 
